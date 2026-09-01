@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dispone" directorySegmentName="seg_0" id="06A87E02-6577-3D2E-5B7A-EA1CD895868C">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 15:29:59 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourcePk>424ECEBC-3EB0-3CD4-2779-6761D4BCFAFB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>puede</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6516F0E3-F3C0-9119-B27F-188FE26119CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6296A412-99EF-1CFC-4920-48E68804E432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

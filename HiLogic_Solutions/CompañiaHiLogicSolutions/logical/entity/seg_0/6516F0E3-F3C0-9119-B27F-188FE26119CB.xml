@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6516F0E3-F3C0-9119-B27F-188FE26119CB" name="PRODUCTO">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-29 22:33:36 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>5000000</maxVolumes>
+<minVolumes>2000</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_producto" id="6BABFC69-6978-1D3B-A3BE-8A01BEB54D18">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:07:47 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="DEB08580-1860-62DA-0B63-29EB99D516C3">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:08:04 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_actual" id="C2ED3A7B-202E-2AAE-21E6-E878C9BE1BF6">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:08:22 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="716E68FD-3F51-C6D5-FDB5-C0E29C377733">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:08:56 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_disponible" id="35F80A7B-26F4-FAA4-8D48-7B5A7874565B">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-31 23:09:29 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="424ECEBC-3EB0-3CD4-2779-6761D4BCFAFB" name="PRODUCTO PK">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:08:03 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BABFC69-6978-1D3B-A3BE-8A01BEB54D18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

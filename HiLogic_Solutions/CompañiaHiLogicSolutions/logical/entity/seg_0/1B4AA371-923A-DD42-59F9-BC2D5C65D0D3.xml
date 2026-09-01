@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B4AA371-923A-DD42-59F9-BC2D5C65D0D3" name="SUCURSAL">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-29 22:33:29 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_sucursal" id="788475B1-5AFE-816F-F3CC-1AAB984267C8">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-29 23:53:43 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_sucursal" id="8BE1CA30-C6CA-DF5F-B89D-5A0D05E15B27">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:05:48 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5CE5FF25-37E7-B8D3-3EED-85581942F967">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:06:11 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="7360F54D-2E4C-838D-B086-B3AB98E8470E">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:06:35 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63A9CD3C-0D8C-3C69-6934-70C94546C130" name="SUCURSAL PK">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 00:05:46 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>788475B1-5AFE-816F-F3CC-1AAB984267C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

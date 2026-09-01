@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mantiene" directorySegmentName="seg_0" id="7F2AF870-6019-23A7-E0B4-ADEBF0236C45">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 15:35:36 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourcePk>63A9CD3C-0D8C-3C69-6934-70C94546C130</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>pertenece</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B4AA371-923A-DD42-59F9-BC2D5C65D0D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6296A412-99EF-1CFC-4920-48E68804E432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

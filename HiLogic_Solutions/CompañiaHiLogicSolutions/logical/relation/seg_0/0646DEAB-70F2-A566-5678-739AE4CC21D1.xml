@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realiza" directorySegmentName="seg_0" id="0646DEAB-70F2-A566-5678-739AE4CC21D1">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 16:02:56 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourcePk>ECA4545F-2798-E636-E349-2DE8042839CD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>pertenece</nameOnSource>
+<nameOnTarget>perteneces</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAAA2E0B-DFE1-2536-EDD1-156F5EF15EF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9B2D5BA-4E2C-6245-F323-F47A6216707B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

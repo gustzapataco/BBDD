@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aparece en" directorySegmentName="seg_0" id="76853B53-C183-8386-447B-B039ED0589E6">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 15:57:35 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourcePk>424ECEBC-3EB0-3CD4-2779-6761D4BCFAFB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>aparece </nameOnSource>
+<nameOnTarget>registra</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6516F0E3-F3C0-9119-B27F-188FE26119CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1242A1B5-A10F-7F55-E516-56D542E9B200</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

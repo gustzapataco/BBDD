@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cargo_opcional" directorySegmentName="seg_0" id="E20E7DF0-E2C9-CE84-0C54-57C82D30841C">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 16:22:41 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourcePk>508E3528-A5C5-F96F-0ED4-3F3E57430DAD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>puede tener</nameOnSource>
+<nameOnTarget>se asigna</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8BF6C51-84DC-C4EC-4C9D-8E5B6D985EDC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55C8F4F8-7D62-140F-6838-5DCDF43D424F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

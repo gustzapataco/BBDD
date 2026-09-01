@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="identifica" directorySegmentName="seg_0" id="271EA0D9-D4BF-8AB1-6EE0-426EE0FA4223">
+<createdBy>gzapa</createdBy>
+<createdTime>2026-08-30 16:08:49 UTC</createdTime>
+<ownerDesignName>CompañiaHiLogicSolutions</ownerDesignName>
+<engineerTo>
+<item key="51A41A8F-6833-5C4B-90D1-2ED31C8F80FD" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>63A9CD3C-0D8C-3C69-6934-70C94546C130</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>identifica</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B4AA371-923A-DD42-59F9-BC2D5C65D0D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC22B366-0EAA-EDF5-EEC7-957484798611</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
